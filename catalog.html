@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Магазин</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item"><a href="#" class="header__link">Студия</a></li>
+          <li class="header__item"><a href="#" class="header__link">Клиенты</a></li>
+          <li class="header__item"><a href="#" class="header__link--active">Магазин</a></li>
+          <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header__basket">Корзина</a>
+    </div>
+  </header>
+
+
+
+  <div class="banner">
+    <div class="banner__inner">
+      <h1 class="banner__title">Добро пожаловать в магазин<br> готовых макетов</h1>
+    </div>
+  </div>
+
+
+
+  <main class="content">
+    <div class="content__column-left">
+      <form class="content__form">
+        <h2 class="content__form-title">Стоимость:</h2>
+        <div class="content__form-filter">
+          <div class="content__form-control">
+            <div class="content__form-scale">
+              <div class="content__form-bar"></div>
+            </div>
+              <div class="content__form-controller content__form-controller-min"></div>
+              <div class="content__form-controller content__form-controller-max"></div>
+            </div>
+            <div class="content__form-price">
+              <label class="content__form-signature">от<input name="min-price" type="text" value="0"></label>
+              <label class="content__form-signature">до<input name="max-price" type="text" value="15000"></label>
+            </div>
+          </div>
+
+          <div class="content__radio-box">
+            <h2 class="content__radio-title">Сетка:</h2>
+            <ul class="content__radio-list">
+              <li class="content__radio-element">
+                <input id="radio-1" type="radio" name="grid" checked>
+                <label for="radio-1">Адаптивная</label>
+              </li>
+              <li class="content__radio-element">
+                <input id="radio-2" type="radio" name="grid">
+                <label for="radio-2">Фиксированная</label>
+              </li>
+              <li class="content__radio-element">
+                <input id="radio-3" type="radio" name="grid">
+                <label for="radio-3">Резиновая</label>
+              </li>
+            </ul>
+          </div>
+
+          <div class="content__checkbox">
+            <h2 class="content__checkbox-title">Особенности:</h2>
+            <ul class="content__checkbox-list">
+              <li class="content__checkbox-element">
+                <input id="checkbox-1" type="checkbox" name="slider" checked>
+                <label for="checkbox-1">Слайдер</label></li>
+              <li class="content__checkbox-element">
+                <input id="checkbox-2" type="checkbox" name="benefits unit">
+                <label for="checkbox-2">Блок преимуществ</label></li>
+              <li class="content__checkbox-element">
+                <input id="checkbox-3" type="checkbox" name="news" checked>
+                <label for="checkbox-3">Новости</label></li>
+              <li class="content__checkbox-element">
+                <input id="checkbox-4" type="checkbox" name="gallery">
+                <label for="checkbox-4">Галерея</label></li>
+              <li class="content__checkbox-element">
+                <input id="checkbox-5" type="checkbox" name="basket">
+                <label for="checkbox-5">Корзина</label></li>
+            </ul>
+          </div>
+
+          <a href="#" class="content__btn">Показать</a>
+      </form>
+    </div>
+
+
+    <div class="content__column-right">
+      <div class="content__sort-block">
+        <ul class="content__sort-list">
+          <span class="content__sort-title">Сортировать:</span>
+          <li class="content__sort-item"><a href="#" class="content__sort-link">по цене</a></li>
+          <li class="content__sort-item"><a href="#" class="content__sort-link">по типу</a></li>
+          <li class="content__sort-item"><a href="#" class="content__sort-link">по функционалу</a></li>
+        </ul>
+        <div class="content__sort-indicator"></div>
+      </div>
+
+      <div class="content__goods">
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-1.jpg" width="240" height="240" alt="Товар">
+        </article>
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-2.jpg" width="240" height="240" alt="Товар">
+          <div class="content__product">
+            <div class="content__product-text">
+            <span class="content__product-title">Sunset</span>
+            <p class="content__product-description">Интернет-магазин<br> с личным кабинетом</p>
+            </div>
+            <a href="#" class="content__product-btn">10000 Р.</a>
+          </div>
+        </article>
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-3.jpg" width="240" height="240" alt="Товар">
+        </article>
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-4.jpg" width="240" height="240" alt="Товар">
+        </article>
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-5.jpg" width="240" height="240" alt="Товар">
+        </article>
+        <article class="content__goods-item">
+          <div class="content__goods-head">
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+            <i class="content__goods-circle"></i>
+          </div>
+          <img src="img/catalog-items/item-6.jpg" width="240" height="240" alt="Товар">
+        </article>
+      </div>
+
+      <nav class="content__pagination">
+        <ul class="content__pagination-list">
+          <li class="content__pagination-item"><a href="#" class="content__pagination-link--active">1</a></li>
+          <li class="content__pagination-item"><a href="#" class="content__pagination-link">2</a></li>
+          <li class="content__pagination-item"><a href="#" class="content__pagination-link">3</a></li>
+        </ul>
+        <button class="content__pagination-btn" name="Next">Следущая</button>
+      </nav>
+    </div>
+  </main>
+
+
+
+  <div id="map" class="address">
+    <div class="address__inner">
+      <div class="address__contacts">
+        <div class="address__text">
+          <h4 class="address__title">NЁRDS DESIGN STUDIO</h4>
+          <p class="address__content">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <span>тел. +7 (812) 275-75-75</span>
+        </div>
+        <a href="#" class="address__btn">Напишите нам</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="footer__social">
+      <a href="#" class="footer__vk"></a>
+      <a href="#" class="footer__fb"></a>
+      <a href="#" class="footer__inst"></a>
+    </div>
+    <div class="footer__text">
+      <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+      <p class="footer__promo">Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <script src="js/index.js"></script>
+</body>
+</html>
