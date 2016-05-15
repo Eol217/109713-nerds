@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Nerds</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo"><img src="img/logo.png" width="139" height="56" alt="Nerds"></a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__item"><a href="#" class="header__link--active">Студия</a></li>
+          <li class="header__item"><a href="#" class="header__link">Клиенты</a></li>
+          <li class="header__item"><a href="#" class="header__link">Магазин</a></li>
+          <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="header__basket">Корзина</a>
+    </div>
+  </header>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
 
-  </body>
+
+  <div class="slider">
+    <div class="slider__inner">
+      <div class="slider__control">
+        <i class="slider__circle--active"></i>
+        <i class="slider__circle"></i>
+        <i class="slider__circle"></i>
+      </div>
+      <div class="slider__slides">
+        <div class="slider__slide">
+          <div class="slider__text">
+            <div class="slider__title">Долго, дорого,<br> скрупулезно.</div>
+            <p class="slider__promo">Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+            <a href="#" class="slider__btn">Узнать больше</a>
+          </div>
+        </div>
+          <div class="slider__slide">
+            <div class="slider__text">
+              <div class="slider__title">Любите ли вы математику, как любим ее мы?</div>
+              <p class="slider__promo">Нашим дизайнерам мы удаляем нейроны, ответственные<br> за креатив, чтобы дать им возможность все просчитать.</p>
+              <a href="#" class="slider__btn">Узнать больше</a>
+            </div>
+          </div>
+          <div class="slider__slide">
+            <div class="slider__text">
+              <div class="slider__title">Только наркотики,<br> только хардкор!</div>
+              <p class="slider__promo">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов.</p>
+              <a href="#" class="slider__btn">Узнать больше</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="features">
+    <div class="features__item">
+      <img src="img/feature-1.jpg" width="240" height="124" alt="Веб-сайты"/>
+      <div class="features__title">Веб-сайты</div>
+      <p class="features__promo">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+      <a href="#" class="features__btn-red">Заказать</a>
+    </div>
+    <div class="features__item">
+      <img src="img/feature-2.jpg" width="240" height="124" alt="Приложения"/>
+      <div class="features__title">Приложения</div>
+      <p class="features__promo">Покорите топ-10 приложений<br> в AppStrore и Google Play</p>
+      <a href="#" class="features__btn-green">Заказать</a>
+    </div>
+    <div class="features__item">
+      <img src="img/feature-3.jpg" width="240" height="124" alt="Презентации"/>
+      <div class="features__title">Презентации</div>
+      <p class="features__promo">Вы даже не подозреваете, насколько вы изумительны!</p>
+      <a href="#" class="features__btn-yellow">Заказать</a>
+    </div>
+  </div>
+
+
+
+  <div class="presentation">
+    <div class="presentation__content">
+      <div class="presentation__left">
+        <h2 class="presentation__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p class="presentation__promo">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше креатива. Работаем не покладая рук, как роботы.</p>
+      </div>
+      <div class="presentation__right">
+        <img src="img/logo-since.png" width="240" height="119" alt="Основан в 2004 году" />
+      </div>
+    </div>
+    <div class="presentation__content">
+      <div class="presentation__left">
+        <h3 class="presentation__list-title">Выполняем заказы на разработку:</h3>
+        <ul class="presentation__list">
+          <li class="presentation__item">Веб-сайтов любой сложности</li>
+          <li class="presentation__item">Мобильных приложений для iOS и Android</li>
+          <li class="presentation__item">Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="presentation__right">
+        <h3 class="presentation__list-title">Как мы работаем:</h3>
+        <ul class="presentation__list">
+          <li class="presentation__item">С самоотдачей 146%</li>
+          <li class="presentation__item">Соблюдая сроки на 100%</li>
+          <li class="presentation__item">По предоплате 50%</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="clients">
+    <a href="#" class="clients__client"><img src="img/company-1.png" width="198" height="37" alt="GLUKHANKO"></a>
+    <a href="https://htmlacademy.ru/" target="_blank" class="clients__client"><img src="img/company-2.png" width="199" height="68" alt="HTML ACADEMY"></a>
+    <a href="#" class="clients__client"><img src="img/company-3.png" width="209" height="90" alt="Barbershop BORODINSKI"></a>
+  </div>
+
+
+
+  <div id="map" class="address">
+    <div class="address__inner">
+      <div class="address__contacts">
+        <div class="address__text">
+          <h4 class="address__title">NЁRDS DESIGN STUDIO</h4>
+          <p class="address__content">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <span>тел. +7 (812) 275-75-75</span>
+        </div>
+        <a href="#" class="address__btn">Напишите нам</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="footer">
+    <div class="footer__social">
+      <a href="#" class="footer__vk"></a>
+      <a href="#" class="footer__fb"></a>
+      <a href="#" class="footer__inst"></a>
+    </div>
+    <div class="footer__text">
+      <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+      <p class="footer__promo">Скидка 10% для друзей из социальных сетей.</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+  <script src="js/index.js"></script>
+</body>
 </html>
